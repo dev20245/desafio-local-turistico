@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+}
+
+img,
+a {
+  display: block;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1150px;
+  margin-inline: auto;
+  padding-inline: 15px;
+}
+
+.img {
+  border-radius: 28px;
+  object-fit: cover;
+}
+
+.img-w {
+  height: 350px;
+}
+
+.border {
+  border-block-start: 1px solid #d9d9d9;
+}
+
+.subtitle {
+  color: #e1624f;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.h1,
+.h2 {
+  color: #1b1b1b;
+  font-weight: bold;
+}
+
+.h1 {
+  font-size: 3.6rem;
+}
+
+.h2 {
+  font-size: 3.2rem;
+}
+
+.text {
+  color: #333;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.link-blue {
+  color: #0c51a7;
+}
+
+.link-purple {
+  color: #591B98;
+}
+
+.link-red {
+  color: #E5245E;
+}
+
+.link-orange {
+  color: #E95E10;
+}
+
+ul li::marker {
+  color: #333333;
+}
+
+.b {
+  border: 2px solid red;
+}
+
+.home {
+  margin-block-start: 88px;
+}
+
+.home-content h1 {
+  margin-block: 8px 44px;
+}
+
+.home-content .home-descrip {
+  margin-block: 24px 44px;
+}
+
+section .border {
+  padding-block-start: 64px;
+}
+
+.container img {
+  margin-block: 48px 20px;
+}
+
+footer.footer {
+  padding-block: 40px 48px;
+}
+
+.footer-top {
+  padding-block-start: 40px;
+}
+
+.footer-content svg {
+  vertical-align: middle;
+}
+
+.footer-content p:first-child {
+  margin-block-end: 65px;
+}
